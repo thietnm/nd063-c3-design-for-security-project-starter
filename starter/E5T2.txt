@@ -1,13 +1,23 @@
 # Identify tools that will allow you to do the following:
 
 ## Scan infrastructure as code templates
+Checkov
+Bandit
+SonarQube
 
 ### Example vulnerability
+Identify code smell that can disable application
 
 ##Scan AMI’s or containers for OS vulnerabilities
+Nessus
+OpenVAS
 
 ### Example vulnerability
+Some service that use SSH, FPT, HTTP can be unable to protect themselves from Dos Attack.
 
 ##Scan an AWS environment for cloud configuration vulnerabilities
+AWS Config
+AWS GuardDuty
 
 ### Example vulnerability
+AWS GuardDuty can find out EC2/SSHBruteForce attack

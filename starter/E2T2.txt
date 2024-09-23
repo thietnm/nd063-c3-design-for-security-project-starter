@@ -1,3 +1,7 @@
 Research and analyze which of the vulnerabilities appear to be related to the code that was deployed for the environment in this project.
 
 Bonus - provide recommendations on how to remediate the vulnerabilities.
+
+- We need to setup rule for LoadBalancer so that HTTP listener rule must have HTTP to HTTPS redirection action configured. (do not have right now)
+- We need to set up rule so that EBS Encryption by default is enabled. (do not have right now)
+- We need to set up rule so that for Load Balancer it should have deletion protection enabled (do not have right now)

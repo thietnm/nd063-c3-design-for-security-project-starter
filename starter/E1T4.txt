@@ -2,4 +2,7 @@ Based on the architecture diagram, and the steps you have taken so far to upload
 
 # Poor practice 1
 
+In S3 setup we do not have any encryption configuration, so anyone can access and read data in them.
+
 # Poor practice 2
+The policy of IAM instance is InstanceRolePolicy-C3 which does not restrict any action to S3, which is a violation of the least privilege principle.
